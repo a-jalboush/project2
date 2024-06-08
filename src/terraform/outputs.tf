@@ -7,5 +7,5 @@ output "public_ip_address_id" {
 }
 
 output "private_ip_address_id" {
-  value = azurerm_private_ip_address_allocation
+  value = azurerm_network_interface.main.ip_configuration
 }
