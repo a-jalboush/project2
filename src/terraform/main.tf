@@ -24,7 +24,7 @@ resource "azurerm_resource_group" "main" {
     }
 
 }
-/*
+
 # Create a VNET
 resource "azurerm_virtual_network" "main" {
   name                = "${var.prefix}-vnet"
@@ -138,4 +138,3 @@ resource "azurerm_subnet_network_security_group_association" "main" {
   subnet_id                 = azurerm_subnet.internal.id
   network_security_group_id = azurerm_network_security_group.main.id
 }
-*/
