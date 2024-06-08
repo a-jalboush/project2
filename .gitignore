@@ -2,7 +2,7 @@
 */*.terraform
 *.*.terraform
 *.terraform
-backend.tf
+*backend*
 
 *.terraform.lock.hcl
 
